@@ -1,0 +1,26 @@
+{
+  "name": "react-native-touchable-swipe",
+  "version": "1.0.0",
+  "description": "Much like the other React Native Touchable components however takes swipe callbacks as well.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react native",
+    "react",
+    "swipe",
+    "touch",
+    "swipeable"
+  ],
+  "author": "Ian Briggs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normalize/react-native-touchable-swipe.git"
+  },
+  "homepage": "https://github.com/normalize/react-native-touchable-swipe#readme",
+  "bugs": {
+    "url": "https://github.com/normalize/react-native-touchable-swipe/issues"
+  }
+}
