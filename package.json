@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/normalize/react-native-touchable-swipe.git"
+    "url": "git+https://github.com/normal1ze/react-native-touchable-swipe.git"
   },
-  "homepage": "https://github.com/normalize/react-native-touchable-swipe#readme",
+  "homepage": "https://github.com/normal1ze/react-native-touchable-swipe#readme",
   "bugs": {
-    "url": "https://github.com/normalize/react-native-touchable-swipe/issues"
+    "url": "https://github.com/normal1ze/react-native-touchable-swipe/issues"
   }
 }
