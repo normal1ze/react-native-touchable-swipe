@@ -41,19 +41,19 @@ export default class TouchableSwipe extends Component {
     _handleEvent(){
       switch(this.direction) {
         case 'tap':
-          if(this.props.onPress){ this.props.onPress() }
+          if(this.props.onPress && typeof this.props.onPress == 'function'){ this.props.onPress() }
           break;
         case 'left':
-          if(this.props.onSwipeLeft){ this.props.onSwipeLeft() }
+          if(this.props.onSwipeLeft && typeof this.props.onSwipeLeft == 'function'){ this.props.onSwipeLeft() }
           break;
         case 'right':
-          if(this.props.onSwipeRight){ this.props.onSwipeRight() }
+          if(this.props.onSwipeRight && typeof this.props.onSwipeRight == 'function'){ this.props.onSwipeRight() }
           break;
         case 'up':
-          if(this.props.onSwipeUp){ this.props.onSwipeUp() }
+          if(this.props.onSwipeUp && typeof this.props.onSwipeUp == 'function'){ this.props.onSwipeUp() }
           break;
         case 'down':
-          if(this.props.onSwipeDown){ this.props.onSwipeDown() }
+          if(this.props.onSwipeDown && typeof this.props.onSwipeDown == 'function'){ this.props.onSwipeDown() }
           break;
       }
     }
