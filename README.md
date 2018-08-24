@@ -27,13 +27,13 @@ Make no mistake, there is no magic, this is simply a nimble, javascript only res
 
 ### Config
 
-You can also pass in a `config` prop that can change help tune the TouchableSwipe component.
+You can also pass in a `config` prop that can help tune the TouchableSwipe component.
 
     <TouchableSwipe config={{tapThreshold: 10}}></TouchableSwipe>
 
 | Name | Default | Description |
 | ---- | ------- | ----------- |
-| tapThreshold | 5 | The distance of moment that is considered a tap. Outside of this movement the gesture becomes a slide |
+| tapThreshold | 5 | The distance of movement that is considered a tap. Outside of this movement the gesture becomes a slide |
 
 
 ### View props
